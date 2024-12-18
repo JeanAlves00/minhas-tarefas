@@ -1,5 +1,5 @@
-import BarraLateral from './components/BarraLateral'
-import ListaDeTarefa from './components/ListaDeTarefa'
+import BarraLateral from './containers/BarraLateral'
+import ListaDeTarefa from './containers/ListaDeTarefa'
 import EstiloGlobal, { Container } from './styles'
 
 function App() {
