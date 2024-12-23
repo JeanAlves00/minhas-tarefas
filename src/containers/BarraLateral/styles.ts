@@ -18,7 +18,13 @@ export const Campo = styled.input`
   padding: 8px;
   background-color: #fff;
   font-weight: bold;
-  color: #666666;
-  border-color: #666666;
+  color: #666;
+  border: 1px solid #666;
   width: 100%;
+  transition: border-color 0.3s ease;
+
+  &:focus {
+    border-color: #2f3640;
+    outline: none;
+  }
 `

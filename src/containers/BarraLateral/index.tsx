@@ -1,4 +1,5 @@
 import FiltroCard from '../../components/FiltroCard'
+import { Descricao, Titulo } from '../../components/Tarefa/styles'
 
 import * as S from './styles'
 
